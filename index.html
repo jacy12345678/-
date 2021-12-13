@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv=Content-Type content="text/html; charset=utf-8">
+
+        <title>南華點名系統</title>
+        <link rel="stylesheet" type ="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="nevigation">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="icon"></span>
+                            <span class="title">首頁</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"></span>
+                            <span class="title">課程</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="signIn()">
+                            <span class="icon"></span>
+                            <span class="title">登入</span>
+                        </a>
+
+                    </li>
+                    <script src="js.js"></script>
+                </ul>
+            </div>
+        </div>
+        <script type="module">
+            // Import the functions you need from the SDKs you need
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
+            // TODO: Add SDKs for Firebase products that you want to use
+            // https://firebase.google.com/docs/web/setup#available-libraries
+          
+            // Your web app's Firebase configuration
+            const firebaseConfig = {
+              apiKey: "AIzaSyAcW9vcQnGVAzsGQNgb89HxUIE_E0xapfs",
+              authDomain: "signin-3cccf.firebaseapp.com",
+              projectId: "signin-3cccf",
+              storageBucket: "signin-3cccf.appspot.com",
+              messagingSenderId: "761151149704",
+              appId: "1:761151149704:web:0a5d11d63b795a1158b13d"
+            };
+          
+            // Initialize Firebase
+            const app = initializeApp(firebaseConfig);
+          </script>
+    </body>
+</html>
